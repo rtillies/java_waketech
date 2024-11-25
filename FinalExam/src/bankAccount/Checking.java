@@ -2,7 +2,7 @@ package bankAccount;
 
 public class Checking extends Account {
 
-    private double balance;
+    // private double balance;
     private static final double MINIMUM_BALANCE = 100.0;
 
     public Checking(double initialDeposit) {
@@ -12,7 +12,7 @@ public class Checking extends Account {
 
     public void deposit(double amount) {
         this.balance += amount;
-        System.out.printf("Add $%,.2f to ");
+        System.out.printf("Add $%,.2f to %d", amount, getID());
     }
 
     public void withdraw(double amount) {

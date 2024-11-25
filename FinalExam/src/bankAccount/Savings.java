@@ -2,7 +2,7 @@ package bankAccount;
 
 public class Savings extends Account {
 
-	private double balance;
+	// private double balance;
 	private double interestRate;
 
 	public Savings(double initialDeposit) {
