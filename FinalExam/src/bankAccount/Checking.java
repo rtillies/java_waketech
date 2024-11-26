@@ -21,7 +21,7 @@ public class Checking extends Account {
     
     private boolean applyMinBalanceFee() {
     	if(balance < MINIMUM_BALANCE) {
-    		balance -= 15;
+            withdraw(15);
     		return true;
     	} 
     	return false;
@@ -29,14 +29,14 @@ public class Checking extends Account {
     
     private boolean applyOverdraftFee() {
     	if(balance < 0.0) {
-    		balance -= 35;
+    		withdraw(35);
     		return true;
     	}
     	return false;
     }
 
 	@Override
-	public void reconcileAccount() {
+	public void reconcile() {
     	if(applyOverdraftFee()) {
     		applyMinBalanceFee();
     	}

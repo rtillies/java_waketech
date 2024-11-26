@@ -9,7 +9,7 @@ public abstract class Account {
 	// abstract methods
     public abstract void deposit (double amount);
     public abstract void withdraw (double amount);
-    public abstract void reconcileAccount();
+    public abstract void reconcile();
     
     // non-abstract methods
     public int getID() 			{ return this.id; }

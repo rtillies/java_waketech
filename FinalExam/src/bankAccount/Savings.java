@@ -28,9 +28,9 @@ public class Savings extends Account {
     }
     
     public void applyInterest() {
-//    	balance += balance * interestRate / 12;  // monthly
-    	balance += balance * interestRate / 52;  // weekly
-//    	balance += balance * interestRate / 360; // daily
+   	  balance += balance * interestRate / 12;  // monthly
+    	// balance += balance * interestRate / 52;  // weekly
+   	  // balance += balance * interestRate / 360; // daily
     }
 
 	@Override
@@ -41,9 +41,9 @@ public class Savings extends Account {
 	}
 
 	@Override
-	public void reconcileAccount() {
+	public void reconcile() {
 		// TODO Auto-generated method stub
-		
+		applyInterest();
 	}
 
 }
