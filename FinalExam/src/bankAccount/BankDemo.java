@@ -1,5 +1,9 @@
 package bankAccount;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 public class BankDemo {
 
 	public static void main(String[] args) {
@@ -23,8 +27,16 @@ public class BankDemo {
 		
 		// Display all accounts
 		
-		// Read each day (in order), reconcile after each day, then display all accounts 
 		
+		// Read each day (in order), reconcile after each day, then display all accounts 
+		String filename = "transactions.txt";
+//		File file = new File(filename);
+//		Scanner reader = new Scanner(file);
+		
+//		while(reader.hasNext()) {
+//			String line = reader.nextLine();
+//			System.out.println(line);
+		}
 		
 		//
 		
@@ -36,7 +48,7 @@ public class BankDemo {
 		
 //		accounts[0]
 		
-		System.out.println(weekdays[0]);
+//		System.out.println(weekdays[0]);
 		System.out.println(months[0]);
 		for (Account a : accounts) {
 			System.out.println(a);
