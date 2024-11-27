@@ -1,0 +1,22 @@
+deposit $576.09 from Checking account 2007 on 7/1/2024
+withdraw $101.58 from Checking account 2007 on 7/2/2024
+deposit $848.12 from Checking account 2007 on 7/3/2024
+deposit $276.37 from Checking account 2882 on 7/5/2024
+deposit $14.25 from Checking account 2007 on 7/8/2024
+deposit $795.74 from Savings account 7752 on 7/9/2024
+withdraw $59.73 from Savings account 4024 on 7/10/2024
+withdraw $41.89 from Savings account 4024 on 7/11/2024
+deposit $74.48 from Checking account 2007 on 7/12/2024
+withdraw $978.25 from Savings account 4024 on 7/15/2024
+**FAIL** check $3,302.50 from Checking account 2882 on 7/16/2024
+withdraw $539.98 from Savings account 4024 on 7/17/2024
+deposit $903.29 from Checking account 2007 on 7/18/2024
+withdraw $293.89 from Savings account 7752 on 7/19/2024
+deposit $62.28 from Checking account 2007 on 7/22/2024
+deposit $314.97 from Savings account 7752 on 7/23/2024
+deposit $893.78 from Savings account 4024 on 7/24/2024
+deposit $153.29 from Savings account 7752 on 7/25/2024
+deposit $797.75 from Savings account 7752 on 7/26/2024
+deposit $342.99 from Checking account 2882 on 7/29/2024
+deposit $488.49 from Savings account 7752 on 7/30/2024
+check $282.26 from Checking account 2882 on 7/31/2024
