@@ -1,0 +1,7 @@
+deposit $75.00 from Checking account 1209 on 7/1/2024
+withdraw $100.00 from Savings account 2418 on 7/8/2024
+check $160.00 from Checking account 3627 on 7/15/2024
+deposit $1,000.00 from Savings account 4836 on 7/22/2024
+**FAIL** withdraw $600.00 from Checking account 1209 on 7/29/2024
+withdraw $500.00 from Checking account 1209 on 8/5/2024
+**FAIL** check $600.00 from Savings account 2418 on 8/12/2024
